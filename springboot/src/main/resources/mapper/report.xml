@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.ReportMapper">
+<!--    <update id="update">-->
+<!--        update report-->
+<!--        <set>-->
+<!--            <if test="address !=null">-->
+<!--                address=#{address},-->
+<!--            </if>-->
+<!--            <if test="classification !=null">-->
+<!--                classification=#{classification},-->
+<!--            </if>-->
+<!--            <if test="enterpriseName !=null">-->
+<!--                enterpriseName=#{enterpriseName},-->
+<!--            </if>-->
+<!--            <if test="territory !=null">-->
+<!--                territory=#{territory},-->
+<!--            </if>-->
+<!--            <if test="phone !=null">-->
+<!--                phone=#{phone}-->
+<!--            </if>-->
+<!--            <if test="contactPerson !=null">-->
+<!--                contactPerson=#{contactPerson}-->
+<!--            </if>-->
+<!--            <if test="detail !=null">-->
+<!--                detail=#{detail}-->
+<!--            </if>-->
+<!--            <if test="advise !=null">-->
+<!--                advise=#{advise}-->
+<!--            </if>-->
+<!--            <if test="term !=null">-->
+<!--                term=#{term}-->
+<!--            </if>-->
+<!--            <if test="result !=null">-->
+<!--                result=#{result}-->
+<!--            </if>-->
+<!--            <if test="measures !=null">-->
+<!--                measures=#{measures}-->
+<!--            </if>-->
+<!--        </set>-->
+
+<!--        <where>-->
+<!--            id=#{id}-->
+<!--        </where>-->
+<!--    </update>-->
+<!--    <select id="selectDetailsById" resultType="com.example.demo.entity.Detail">-->
+<!--        SELECT * FROM detail WHERE id = #{id}-->
+<!--    </select>-->
+
+</mapper>

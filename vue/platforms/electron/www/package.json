@@ -1,0 +1,20 @@
+{
+  "main": "cdv-electron-main.js",
+  "name": "io.cordova.hellocordova",
+  "displayName": "HelloCordova",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vant": "^3.4.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "homepage": "http://cordova.io",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Apache Cordova Team",
+    "email": "dev@cordova.apache.org"
+  }
+}

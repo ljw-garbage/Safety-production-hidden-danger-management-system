@@ -1,0 +1,34 @@
+server:
+  port: 8088
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springboot-vue?serverTimezone=GMT%2b8
+    username: root
+    password: 123456
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  redis:
+    host: 127.0.0.1
+    port: 6379
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+mybatis:
+  config-location: classpath:mapper:/*.xml  #扫描所有mybatis 的xml文件
+#  configuration:
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+files:
+  upload:
+    path: E:/code/files/
+
+
+cors:
+  allowCredentials: true

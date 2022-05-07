@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.ImageMapper">
+<!--    <update id="update">-->
+<!--        update user-->
+<!--        <set>-->
+<!--            <if test="username !=null">-->
+<!--                username=#{username},-->
+<!--            </if>-->
+<!--            <if test="password !=null">-->
+<!--                password=#{password},-->
+<!--            </if>-->
+<!--            <if test="account !=null">-->
+<!--                account=#{account},-->
+<!--            </if>-->
+<!--            <if test="territory !=null">-->
+<!--                territory=#{territory},-->
+<!--            </if>-->
+<!--            <if test="phone !=null">-->
+<!--                phone=#{phone}-->
+<!--            </if>-->
+<!--        </set>-->
+
+<!--        <where>-->
+<!--            id=#{id}-->
+<!--        </where>-->
+<!--    </update>-->
+<!--    <select id="selectDetailsById" resultType="com.example.demo.entity.Detail">-->
+<!--        SELECT * FROM detail WHERE id = #{id}-->
+<!--    </select>-->
+
+</mapper>
